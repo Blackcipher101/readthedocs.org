@@ -772,8 +772,13 @@ class TestLoadConfigV2:
         'value,result',
         [
             ('html', 'sphinx'),
+<<<<<<< HEAD
             ('dirhtml', 'sphinx_htmldir'),
             ('htmldir','sphinx_htmldir'),
+=======
+            ('htmldir', 'sphinx_htmldir'),
+            ('dirhtml', 'sphinx_htmldir'),
+>>>>>>> 5924d8c7fd3d34707c60acd01b46a564232fc2ee
             ('singlehtml', 'sphinx_singlehtml'),
         ],
     )

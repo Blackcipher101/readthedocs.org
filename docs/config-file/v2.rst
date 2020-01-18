@@ -284,8 +284,15 @@ The builder type for the Sphinx documentation.
 
 :Type: ``string``
 :Options: ``html``, ``dirhtml``, ``singlehtml``
+<<<<<<< HEAD
 :Options: ``html``, ``htmldir``, ``singlehtml``
+=======
+>>>>>>> 5924d8c7fd3d34707c60acd01b46a564232fc2ee
 :Default: ``html``
+
+.. note::
+   The ``htmldir`` builder option was renamed to ``dirhtml`` to use the same name as sphinx.
+   Configurations using the old name will continue working.
 
 sphinx.configuration
 ````````````````````

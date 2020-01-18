@@ -96,8 +96,12 @@ python-install-pipfile:
 sphinx:
   # The builder type for the sphinx documentation
   # Default: 'html'
+<<<<<<< HEAD
   builder: enum('html', 'dirhtml', 'singlehtml', required=False)
   builder: enum('html', 'htmldir', 'singlehtml', required=False)
+=======
+  builder: enum('html', 'htmldir', 'dirhtml', 'singlehtml', required=False)
+>>>>>>> 5924d8c7fd3d34707c60acd01b46a564232fc2ee
 
 
   # The path to the conf.py file
