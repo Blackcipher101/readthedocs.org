@@ -347,7 +347,7 @@ class CommunityBaseSettings(Settings):
     SENTRY_CELERY_IGNORE_EXPECTED = True
 
     # Docker
-    DOCKER_ENABLE = False
+    DOCKER_ENABLE = True
     DOCKER_SOCKET = 'unix:///var/run/docker.sock'
     # This settings has been deprecated in favor of DOCKER_IMAGE_SETTINGS
     DOCKER_BUILD_IMAGES = None
